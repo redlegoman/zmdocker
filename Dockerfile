@@ -4,7 +4,6 @@ MAINTAINER Andy McDade (redlegoman)
 LABEL Description="Zoneminder 1.30 in an Ubuntu 16.04 system which runs systemd. Some values in the zoneminder database have been changed already so this should run out of the box."
 LABEL Version="1.0"
 RUN echo "root:root" | chpasswd
-RUN sed -i 's/^mesg n$/tty -s \&\& mesg n/g' /root/.profile
 RUN find /etc/systemd/system \
          /lib/systemd/system \
          -path '*.wants/*' \
