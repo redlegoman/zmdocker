@@ -19,4 +19,4 @@ Run the image using this command line:
 
 
 
-Change the ports of drop the 22 (ssh) as you see fit.
+Change the ports or drop the 22 (ssh) as you see fit.
