@@ -5,7 +5,7 @@ php.ini has the timezone of "Europe/London". You might want to change that or yo
 
 Run the image using this command line:
 
-
+```
   docker run \ 
   --privileged=true \ 
   --stop-signal=SIGRTMIN+3 \ 
@@ -15,6 +15,7 @@ Run the image using this command line:
   -p=40022:22 \ 
   -p=40080:80 \ 
   -d redlegoman/zmdocker
+```
 
 
 
