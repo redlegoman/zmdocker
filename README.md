@@ -14,7 +14,7 @@ Run the image using this command line:
   -v /sys/fs/cgroup:/sys/fs/cgroup:ro \ 
   -p=40022:22 \ 
   -p=40080:80 \ 
-  -d redlegoman/zmdocker
+  -d redlegoman/zoneminder
 ```
 
 
